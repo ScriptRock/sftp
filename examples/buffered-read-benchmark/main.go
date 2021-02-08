@@ -11,10 +11,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/ScriptRock/crypto/ssh"
-	"github.com/ScriptRock/crypto/ssh/agent"
+	"github.com/cloudhousetech/crypto/ssh"
+	"github.com/cloudhousetech/crypto/ssh/agent"
 
-	"github.com/ScriptRock/sftp"
+	"github.com/cloudhousetech/sftp"
 )
 
 var (

@@ -2,7 +2,7 @@ package sftp
 
 // sftp server integration tests
 // enable with -integration
-// example invokation (darwin): gofmt -w `find . -name \*.go` && (cd server_standalone/ ; go build -tags debug) && go test -tags debug github.com/ScriptRock/sftp -integration -v -sftp /usr/libexec/sftp-server -run ServerCompareSubsystems
+// example invokation (darwin): gofmt -w `find . -name \*.go` && (cd server_standalone/ ; go build -tags debug) && go test -tags debug github.com/cloudhousetech/sftp -integration -v -sftp /usr/libexec/sftp-server -run ServerCompareSubsystems
 
 import (
 	"bytes"
@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ScriptRock/crypto/ssh"
+	"github.com/cloudhousetech/crypto/ssh"
 	"github.com/kr/fs"
 )
 

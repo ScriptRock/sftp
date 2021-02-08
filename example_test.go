@@ -6,8 +6,8 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/ScriptRock/crypto/ssh"
-	"github.com/ScriptRock/sftp"
+	"github.com/cloudhousetech/crypto/ssh"
+	"github.com/cloudhousetech/sftp"
 )
 
 func Example() {

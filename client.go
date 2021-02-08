@@ -9,7 +9,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ScriptRock/crypto/ssh"
+	"github.com/cloudhousetech/crypto/ssh"
 	"github.com/kr/fs"
 	"github.com/pkg/errors"
 )
